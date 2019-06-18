@@ -1,0 +1,18 @@
+body {
+    background-image:url("../assets/Backgrounds/naturalwhite/naturalwhite.png");
+}
+
+#navBar {
+    margin-top:15px;
+    margin-bottom:20px;
+    /* border:2px solid blue; */
+    color:black;
+}
+
+.jumbotron {
+    background-color:darkred;
+    border:2px solid blue;
+    color:white;
+    width:100%;
+    padding:70px;
+}
