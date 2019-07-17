@@ -1,6 +1,7 @@
 # The-First-Timers
-___
+---
 
-![alt text](https://ibb.co/Cs5mspb "FTFFL")
+![alt text](first-time-crest-4.jpg "FTFFL")
+___
 Williams Fantasy Football League
 Est. 2013
