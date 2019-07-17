@@ -1,34 +1,32 @@
 body {
     background-image:url("../assets/Backgrounds/naturalwhite/naturalwhite.png");
 }
-
-#navBar {
-    margin-top:15px;
-    margin-bottom:20px;
-    /* border:2px solid blue; */
-    color:black;
+#crest {
+    width:120px;
+    align-content: center;
 }
-
+.navbar {
+    margin-top:3px;
+    margin-bottom:5px;
+    background-image:url("../assets/Backgrounds/naturalwhite/naturalwhite.png");
+}
 .nav-link {
     font-family:calibri;
-    font-size:14pt;
-    
+    font-size:14pt; 
 }
-
-.active {
-    background-color:lightskyblue;
-    border:1px solid blue;
+.nav-link.active {
+    background-color:gray;
+    border:1px solid darkgrey;
 }
-
 .jumbotron {
-    background-color:darkred;
+    background-color:darkblue;
     border:2px solid blue;
     color:white;
     width:100%;
-    padding:70px;
+    padding:40px;
 }
-
 #scheduleContainer {
     border:2px dashed red;
     padding:10px;
+    margin-bottom: 140px;
 }

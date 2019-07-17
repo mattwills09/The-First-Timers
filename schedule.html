@@ -4,60 +4,72 @@
 <head>
 
   <meta charset="UTF-8">
-  <title>First Timers Fantasy Football League</title>
+  <title>First Timers Fantasy | Schedule</title>
 
+<!-- Bootstrap -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+<!-- CSS Stylesheet -->
     <link rel="stylesheet" type="text/css" href="./assets/style.css">
-
+<!-- jQuery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
-
+<!-- Bootstrap Table -->
     <link href="https://unpkg.com/bootstrap-table@1.14.2/dist/bootstrap-table.min.css" rel="stylesheet">
-
     <script src="https://unpkg.com/bootstrap-table@1.14.2/dist/bootstrap-table.min.js"></script>
-
+<!-- JavaScript -->
     <script src="script.js"></script>
+<!-- FavIcon -->
+    <link rel="icon" type="image/png" href="assets/trophy-icon.png">
 
 </head>
 
 <body>
+
     <div class="container">
 
-        <div class="row">
-            <div class="col-md-12" id="navBar">
-                <ul class="nav nav-tabs justify-content-end">
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html">Standings</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" href="schedule.html">Schedule</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="teams.html">Teams</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
+        <nav class="navbar navbar-expand-lg static-top">
+
+            <a class="navbar-brand" href="index.html">
+                <img id="crest" style="display:inline" src="assets/first-time-crest-4.jpg" alt="The First Timers!">
+            </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+    
+                <div class="collapse navbar-collapse justify-content-end nav-fill" id="navbarResponsive" style="display:inline">
+                    <ul class="nav nav-pills nav-fill">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Standings</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active btn btn-outline-danger" href="schedule.html">Schedule</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="teams.html">Teams</a>
+                        </li>
+                    </ul>
+                </div>
+        </nav>
 
 <!-- ============================================ -->
 
-        <div class="row">
-            <div class="col-md-12">
-                <div class="jumbotron jumbotron-fluid border-0">
-                    <h1 class="display-4">The First Timers Fantasy Football League</h1>
-                    <p class="lead">| Williams || Lundy || Bova || Pomponio || Jaslow |</p>
-                    <p><em>Est. 2013</em></p>
-                </div>
+    <div class="row">
+        <div class="col-md-12">
+            <div class="jumbotron jumbotron-fluid border-0">
+                <h1 class="display-4">The First Timers Fantasy Football League</h1>
+                <p class="lead" style="color:lightcoral">| Williams || Lundy || Bova || Pomponio || Jaslow |</p>
+                <p><em>Est. 2013</em></p>
             </div>
         </div>
+    </div>
 
 <!-- ============================================ -->
 
     <div id="scheduleContainer">
-        <div id="2019schedule"><h2><u>2019 Regular Season Schedule</u></h2></div>
+        <div id="2019schedule"><h3><em><u>2019 Regular Season Schedule</u></em></h3></div>
 
         <br>
 
-        <p class="h4">- The 2019 Regular Season Schedule will be released after this season's Draft, so please check back later this summer!</p>
+        <p class="h5">- The 2019 Regular Season Schedule will be released after this season's Draft, so please check back later this summer!</p>
 
         <br>
 
