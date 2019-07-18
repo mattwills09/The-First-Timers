@@ -7,7 +7,7 @@ body {
 }
 .navbar {
     margin-top:3px;
-    margin-bottom:5px;
+    margin-bottom:3px;
     background-image:url("../assets/Backgrounds/naturalwhite/naturalwhite.png");
 }
 .nav-link {
@@ -24,9 +24,34 @@ body {
     color:white;
     width:100%;
     padding:40px;
+    height:85%;
+}
+.container {
+    margin-bottom:100px;
+}
+.card {
+    /* background-color:grey; */
+    height:320px;
+}
+li {
+    font-size:16px;
 }
 #scheduleContainer {
     border:2px dashed red;
     padding:10px;
     margin-bottom: 140px;
+}
+#footer2 {
+    background-color:#666666 ;
+    color:#dddddd;
+    width: 100%;
+    padding-top:20px;
+    padding-left:20px;
+    padding-right:20px;
+    text-align:center;
+    clear:both;
+    margin:auto;
+    border-top:solid;
+    border-color:#4aaaa5;
+    border-width:8px;
 }
