@@ -17,6 +17,14 @@ $(document).ready(function() {
             $(this).removeClass('text-primary');
         }
     );
+
+    $(".fas").hover(
+        function() {
+            $(this).addClass('text-primary').css('cursor', 'pointer'); 
+        }, function() {
+            $(this).removeClass('text-primary');
+        }
+    );
      
    // document ready  
    });
