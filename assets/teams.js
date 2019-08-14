@@ -5,23 +5,25 @@ $(document).ready(function() {
     $(".card").hover(
         function() {
             $(this).addClass('shadow-lg text-danger').css('cursor', 'pointer'); 
-        }, function() {
+        },
+        function() {
             $(this).removeClass('shadow-lg text-danger');
         }
     );
 
-    $(".card-title").hover(
-        function() {
-            $(this).addClass('text-primary').css('cursor', 'pointer'); 
-        }, function() {
-            $(this).removeClass('text-primary');
-        }
-    );
+    // $(".card-title").hover(
+    //     function() {
+    //         $(this).addClass('text-primary').css('cursor', 'pointer'); 
+    //     },function() {
+    //         $(this).removeClass('text-primary');
+    //     }
+    // );
 
     $(".fas").hover(
         function() {
             $(this).addClass('text-primary').css('cursor', 'pointer'); 
-        }, function() {
+        },
+        function() {
             $(this).removeClass('text-primary');
         }
     );
