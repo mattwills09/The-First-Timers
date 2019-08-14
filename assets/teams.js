@@ -4,7 +4,7 @@ $(document).ready(function() {
    
     $(".card").hover(
         function() {
-            $(this).addClass('shadow-lg text-danger').css('cursor', 'crosshair'); 
+            $(this).addClass('shadow-lg text-danger').css('cursor', 'pointer'); 
         },
         function() {
             $(this).removeClass('shadow-lg text-danger');
