@@ -4,7 +4,7 @@ $(document).ready(function() {
    
     $(".card").hover(
         function() {
-            $(this).addClass('shadow-lg text-danger').css('cursor', 'pointer'); 
+            $(this).addClass('shadow-lg text-danger').css('cursor', 'crosshair'); 
         },
         function() {
             $(this).removeClass('shadow-lg text-danger');
@@ -21,7 +21,7 @@ $(document).ready(function() {
 
     $(".fas").hover(
         function() {
-            $(this).addClass('text-primary').css('cursor', 'pointer'); 
+            $(this).addClass('text-primary').css('cursor', 'crosshair'); 
         },
         function() {
             $(this).removeClass('text-primary');
