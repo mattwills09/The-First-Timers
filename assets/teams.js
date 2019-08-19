@@ -19,14 +19,14 @@ $(document).ready(function() {
     //     }
     // );
 
-    // $(".fas").hover(
-    //     function() {
-    //         $(this).addClass('text-warning').css('cursor', 'crosshair'); 
-    //     },
-    //     function() {
-    //         $(this).removeClass('text-warning');
-    //     }
-    // );
+    $(".fas").hover(
+        function() {
+            $(this).addClass('text-warning').css('cursor', 'crosshair'); 
+        },
+        function() {
+            $(this).removeClass('text-warning');
+        }
+    );
      
    // document ready  
    });
