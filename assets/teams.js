@@ -4,10 +4,10 @@ $(document).ready(function() {
    
     $(".card").hover(
         function() {
-            $(this).addClass('shadow-lg text-danger').css('cursor', 'pointer'); 
+            $(this).addClass('shadow-md text-danger').css('cursor', 'pointer'); 
         },
         function() {
-            $(this).removeClass('shadow-lg text-danger');
+            $(this).removeClass('shadow-md text-danger');
         }
     );
 
@@ -21,10 +21,10 @@ $(document).ready(function() {
 
     $(".fas").hover(
         function() {
-            $(this).addClass('text-primary').css('cursor', 'crosshair'); 
+            $(this).addClass('text-warning').css('cursor', 'crosshair'); 
         },
         function() {
-            $(this).removeClass('text-primary');
+            $(this).removeClass('text-warning');
         }
     );
      

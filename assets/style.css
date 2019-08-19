@@ -29,6 +29,9 @@ body {
 .container {
     margin-bottom:100px;
 }
+.table {
+    text-align: center;
+}
 .card {
     height:320px;
 }
