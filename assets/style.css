@@ -38,9 +38,6 @@ body {
 .card-title:hover {
     text-shadow: 1px 1px 3px black;
 }
-.fas {
-    /* margin-left:13px; */
-}
 li {
     font-size:16px;
 }
