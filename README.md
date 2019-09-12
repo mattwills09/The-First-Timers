@@ -1,4 +1,4 @@
-# The-First-Timers
+# The-First-Timers Fantasy Football League
 ---
 
 ![alt text](first-time-crest-4.jpg "FTFFL")
