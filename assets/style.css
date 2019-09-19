@@ -81,6 +81,10 @@ li {
     border-color:#4aaaa5;
     border-width:8px;
 }
+#recap1 {
+    font-family: 'Calibri';
+    font-size: 13pt;
+}
 
 /* Bootstrap 4 breakpoints */
 

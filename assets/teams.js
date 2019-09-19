@@ -21,7 +21,7 @@ $(document).ready(function() {
 
     $(".fas").hover(
         function() {
-            $(this).addClass('text-warning').css('cursor', 'crosshair'); 
+            $(this).addClass('text-warning'); 
         },
         function() {
             $(this).removeClass('text-warning');
