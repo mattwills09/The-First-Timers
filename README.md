@@ -1,5 +1,8 @@
-# The-First-Timers
+# "The First Timers" Fantasy Football League
 ---
+
+Season 7
+___
 
 ![alt text](first-time-crest-4.jpg "FTFFL")
 
