@@ -1,7 +1,7 @@
 # "The First Timers" Fantasy Football League
 ---
 
-Proudly Competing in Season 7
+Proudly Competing in Season Seven.
 ___
 
 ![alt text](first-time-crest-4.jpg "FTFFL")
