@@ -48,7 +48,7 @@ li {
 }
 #gameRecaps {
     border:1px double white;
-    padding:50px;
+    padding: 10px;
 }
 #countdown {
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -84,6 +84,7 @@ li {
 #recap1 {
     font-family: 'Calibri';
     font-size: 13pt;
+    line-height: 28px;
 }
 
 /* Bootstrap 4 breakpoints */
