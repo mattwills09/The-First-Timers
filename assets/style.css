@@ -42,11 +42,11 @@ li {
     font-size:16px;
 }
 .wk2 {
-    margin-bottom: 4px;
+    margin-bottom: 10px;
 }
 #scheduleContainer {
     border:2px double red;
-    padding:40px;
+    padding:50px;
     margin-bottom: 140px;
 }
 #gameRecaps {
