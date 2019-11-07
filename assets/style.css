@@ -65,6 +65,7 @@ li {
     text-align:center;
     border:2px dotted red;
     padding:10px;
+    width:65%;
 }
 #teamIcons {
     text-align: center;
