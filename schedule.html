@@ -80,7 +80,7 @@
           
             <div id="countdown">Countdown to Next Season:</div><p></p>
           
-            <p id="countdownClock2"><b></b></p><br>
+            <p id="seasonCountdownClock"><b></b></p><br>
           
           <hr>
 
@@ -1313,7 +1313,7 @@
             var now = new Date().getTime();
                 
             // Find the distance between now and the count down date
-            var distance = countDownDate - now;
+            var distance = countDownDate2 - now;
                 
             // Time calculations for days, hours, minutes and seconds
             var days = Math.floor(distance / (1000 * 60 * 60 * 24));
@@ -1322,13 +1322,13 @@
             var seconds = Math.floor((distance % (1000 * 60)) / 1000);
                 
             // Output the result in an element with id=" "
-            document.getElementById("countdownClock2").innerHTML = days + "d, " + hours + "h, " + minutes + "m, " + seconds + "s ";
+            document.getElementById("seasonCountdownClock").innerHTML = days + "d, " + hours + "h, " + minutes + "m, " + seconds + "s ";
             console.log(coundtownClock2);
                 
             // If the count down is over, write some text 
             if (distance < 0) {
                 clearInterval(x);
-                document.getElementById("countdownClock2").innerHTML = "WHO'S FINALLY READY FOR SOME FOOTBALLLLLL!";
+                document.getElementById("seasonCountdownClock").innerHTML = "WHO'S FINALLY READY FOR SOME FOOTBALLLLLL!";
             }
         }, 1000);
     </script>
