@@ -74,7 +74,7 @@ li {
     font-family:Georgia, 'Times New Roman', Times, serif;
     font-size:20pt;
     text-align:center;
-    border:2px solid blue;
+    border:2px dashed blue;
     border-bottom: 6px solid blue;
     background-color: lightgrey;
     padding:10px;
